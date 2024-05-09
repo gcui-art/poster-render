@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poster-render"
+version = "0.1.0"
+description = ""
+authors = ["robin0909 <robinyang_beijing@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+dynaconf = "^3.2.5"
+pyppeteer = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,5 @@
+HOST = "0.0.0.0"
+PORT = 9090
+
+[browser]
+hostname = "ws://192.168.31.149:3000?token=SDHJK78AADS"
